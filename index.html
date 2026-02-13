@@ -35,17 +35,17 @@
       from { text-shadow: 0 0 15px #ff9a9e; }
       to { text-shadow: 0 0 30px #fff; }
     }
-      .profile-pic {
-  width: 160px;
-  height: auto;
-  max-height: 200px;
+     .profile-pic {
+  width: clamp(160px, 50vw, 280px);
+  max-height: 45vh;
   object-fit: cover;
   border-radius: 20px;
   border: 5px solid #ffffff;
   box-shadow: 0 0 30px rgba(255, 182, 193, 0.9);
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   transition: transform 0.4s ease;
 }
+
 
 
 
@@ -296,6 +296,7 @@
 </script>
 </body>
 </html>
+
 
 
 
